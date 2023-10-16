@@ -1,0 +1,44 @@
+.section {
+  background-image: linear-gradient(to top, #eadb9a 0%, #d1fdff 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.presentation {
+  display: flex;
+  position: relative;
+  height: 630px;
+}
+.presentation__background {
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-right: 1763px solid transparent;
+  border-bottom: 630px solid white;
+  border-left: 787px solid transparent;
+}
+.presentation__img {
+  margin: 150px;
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  position: absolute;
+  z-index: 1;
+}
+.presentation__h1des {
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  margin: 180px 0 0 150px;
+  padding-left: 550px;
+  z-index: 2;
+}
+.presentation__text {
+  color: black;
+  text-align: center;
+  z-index: 1;
+  margin: 280px 250px 300px 550px;
+}
+
+/*# sourceMappingURL=style.css.map */
