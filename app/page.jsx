@@ -2,10 +2,12 @@ import Image from 'next/image'
 import style from './page.module.scss'
 import profilePic from '/app/assets/profile-pic.jpg'
 import Navbar from '/app/components/navbar'
+import '../styles/style.css'
 
 export default function Home() {
   return (
-    <><Navbar /><main>
+    <>
+    <Navbar /><main>
       <section className={style.section} id="presentation">
         <span className={style.presentation}>
           <span className={style.presentation__background} />

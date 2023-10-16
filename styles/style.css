@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Work-Sans-Light";
+  src: url("./polices/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Work-Sans-Light";
+}
+
 .section {
   background-image: linear-gradient(to top, #eadb9a 0%, #d1fdff 100%);
   margin: 0;
