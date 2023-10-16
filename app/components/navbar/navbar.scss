@@ -21,7 +21,32 @@
 
 .navbar__link {
     color: $primary;
+    padding-bottom: 5px;
+    position: relative;
+    text-decoration: none;
+    &:hover {
+       // text-decoration: underline;
+        //text-underline-offset: 10px;
+        //text-decoration-color: $secondary;
+    }
 }
+
+.navbar__link::after {
+    background: #f00;
+    background: linear-gradient(to left, $secondary 0%, $primary 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0%;
+    transition: 0.2s ease-in-out;
+ }
+
+ .navbar__link:hover:after {
+
+    width: 100%;
+ }
 
 .navbar__burger {
     width: 40px;

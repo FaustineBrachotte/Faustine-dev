@@ -1,6 +1,6 @@
 @import '../styles/utils.scss';
 
-.section {
+.presentationBackground {
   background-image: linear-gradient(to top, $secondary 0%, $primary 100%);
   margin: 0;
   padding: 0;
@@ -45,5 +45,34 @@
     text-align: center;
     z-index: 1;
     margin: 280px 250px 300px 550px;
+  }
+}
+
+.portfolio {
+  padding: 50px 150px;
+  h1 {
+    font-weight: 500;
+    padding-bottom: 50px;
+  }
+  &__img {
+    height: 30px;
+    width: auto;
+    margin-bottom: 15px;
+  }
+  &__realisations {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    &__item {
+    border-image : linear-gradient(to top, $secondary 0%, $primary 100%) 1 ;
+    border-style : solid ;
+    border-radius: 50px ;
+    border-width : 5px ;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
   }
 }
