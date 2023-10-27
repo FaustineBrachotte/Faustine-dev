@@ -1,6 +1,10 @@
 'use client'
 import './navbar.scss'
 import { useState } from 'react'
+import Image from 'next/image'
+import logo from '/app/assets/logo.png'
+import logoDark from '/app/assets/logo-dark.png'
+
 
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false)
@@ -10,7 +14,8 @@ function Navbar() {
 
     return (
         <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
-            <a href="/#presentation">
+            <a className="navbar__logo" href="/#presentation">
+            <Image height="40" src={logoDark} alt="Logo" />
                 <h1 className="navbar__h1 anim">Faustine Brachotte</h1>
             </a>
             <ul className="navbar__links">

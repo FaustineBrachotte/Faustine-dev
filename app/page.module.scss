@@ -8,7 +8,7 @@
 
 .presentation {
   display: flex;
-  position: relative;
+  //position: relative;
   height: 630px;
 
   &__background {
@@ -16,35 +16,54 @@
     display: inline-block;
     height: 0;
     width: 0;
-    border-right: 1763px solid transparent;
-    border-bottom: 630px solid white;
-    border-left: 787px solid transparent;
+    //border-right: 1763px solid transparent;
+    //border-bottom: 630px solid white;
+    //border-left: 787px solid transparent;
+    border-right: 110vw solid transparent;
+    border-bottom: 89.7vh solid white;
+    border-left: 40vw solid transparent;
   }
 
   &__img {
-    margin: 150px;
-    height: 300px;
-    width: 300px;
+    margin: 10vw 0 0 6vw;
+    height: 280px;
+    width: 280px;
     border-radius: 200px;
-    position: absolute;
     z-index: 1;
     @include box-shadow;
   }
 
+  &__text {
+    display: flex;
+    flex-direction: column;
+
+  }
   &__h1des {
-    position: absolute;
     color: black;
-    font-size: 40px;
-    margin: 180px 0 0 150px;
-    padding-left: 550px;
+    font-size: 30px;
+    margin: 11vw 5vw 3vw 17vw;
     z-index: 2;
   }
 
-  &__text {
+  &__desc {
     color: black;
-    text-align: center;
     z-index: 1;
-    margin: 280px 250px 300px 550px;
+    margin-right: 1vw;
+    p {
+      padding-bottom: 20px;
+    }
+    &__p1 {
+      margin-left: 12vw;
+    }
+    &__p2 {
+      margin-left: 8vw;
+    }
+    &__p3 {
+      margin-left: 4vw;
+    }
+    &__p4 {
+      margin-left: 1vw;
+    }
   }
 }
 
