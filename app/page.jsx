@@ -38,26 +38,22 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={style.services}>
-              <div className={style.services__service}>
-                <Image className={style.services__service__icong} height="70" src={mail} alt="" />
-                <p>Création de site sur-mesure</p>
-                <p>bla bla</p>
+          <div className={style.contacts}>
+              <div className={style.contacts__contact}>
+                <Image className={style.contacts__contact__icon} height="40" src={github} alt="" />
+                <p>FaustineBrachotte</p>
               </div>
-              <div className={style.services__service}>
-                <Image className={style.services__service__icong} height="70" src={location} alt="" />
-                <p>Design</p>
-                <p>bla bla</p>
+              <div className={style.contacts__contact}>
+                <Image className={style.contacts__contact__icon} height="40" src={linkedin} alt="" />
+                <p>FaustineBrachotte</p>
               </div>
-              <div className={style.services__service}>
-                <Image className={style.services__service__icong} height="70" src={linkedin} alt="" />
-                <p>Référencement</p>
-                <p>bla bla</p>
+              <div className={style.contacts__contact}>
+                <Image className={style.contacts__contact__icon} height="40" src={mail} alt="" />
+                <p>faustine@agilibri.fr</p>
               </div>
-              <div className={style.services__service}>
-                <Image className={style.services__service__icong} height="70" src={github} alt="" />
-                <p>Responsive</p>
-                <p>bla bla</p>
+              <div className={style.contacts__contact}>
+                <Image className={style.contacts__contact__icon} height="40" src={location} alt="" />
+                <p>Paris</p>
               </div>
             </div>
 
