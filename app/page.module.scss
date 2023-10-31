@@ -8,8 +8,12 @@
 
 .presentation {
   display: flex;
+  flex-direction: column;
   //position: relative;
   height: 630px;
+  &__top {
+    display: flex;
+  }
 
   &__background {
     position: absolute;
@@ -25,7 +29,7 @@
   }
 
   &__img {
-    margin: 10vw 0 0 6vw;
+    margin: 10vw 0 0 80px;
     height: 280px;
     width: 280px;
     border-radius: 200px;
@@ -63,6 +67,15 @@
 
   }
 }
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  color: black;
+  margin: 2vw 3vw 0 3vw;
+}
+
 
 .portfolio {
   padding: 50px 150px;

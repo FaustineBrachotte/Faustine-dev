@@ -4,13 +4,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: sticky;
     top: 0;
     color: $primary;
     background-color: black;
     box-shadow: 0 0 20px #d1fdff;
-    padding: 20px 80px;
+    padding: 15px 50px;
     z-index: 1;
 }
 
@@ -22,6 +22,7 @@
 .navbar__logo {
     display: flex;
     align-items: center;
+    margin-left: 25px;
 }
 
 .navbar__link {

@@ -14,9 +14,6 @@ function Navbar() {
 
     return (
         <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
-            <a className="navbar__logo" href="/#presentation">
-            <Image height="40" src={logoDark} alt="Logo" />
-            </a>
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
                     <a href="/" className="navbar__link anim">
@@ -34,6 +31,9 @@ function Navbar() {
                     </a>
                 </li>
             </ul>
+            <a className="navbar__logo" href="/#presentation">
+                <Image height="40" src={logoDark} alt="Logo" />
+            </a>
             <button className="navbar__burger anim" onClick={handleShowLinks}>
                 <span className="burger-bar"></span>
             </button>
