@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
             <a className="navbar__logo" href="/#presentation">
-            <Image height="40" src={logoDark} alt="Logo" />
+            <Image height="35" src={logoDark} alt="Logo" />
                 <h1 className="navbar__h1 anim">Faustine Brachotte</h1>
             </a>
             <ul className="navbar__links">
