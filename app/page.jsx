@@ -18,16 +18,14 @@ export default function Home() {
           <span className={style.presentation__background} />
           <Image className={style.presentation__img} src={profilePic} alt="" />
           <div className={style.presentation__text}>
-            <h1 className={`${style.presentation__h1des} ${'anim'}`}>Bonjour !</h1>
+            <h1 className={`${style.presentation__h1des} ${'anim'}`}>Bonjour,</h1>
+            <h1 className={`${style.presentation__h2des} ${'anim'}`}><font color="black">Je suis</font> Faustine Brachotte<font color="black">, développeuse web freelance</font></h1>
             <div className={style.presentation__desc}>
-              <p className={`${style.presentation__desc__p1} ${'anim'}`}>
-              Je suis Faustine Brachotte, développeuse web spécialisée dans la création de sites sur mesure.
-              </p>
               <p className={`${style.presentation__desc__p2} ${'anim'}`}>
               Je conçois des sites de A à Z, de la création du design à la mise en ligne. 
               </p>
               <p className={`${style.presentation__desc__p3} ${'anim'}`}>
-              &nbsp;&nbsp;&nbsp; Mon objectif est de donner vie à vos idées en ligne, en mettant en avant votre vision, en répondant à vos besoins et objectifs, tout en garantissant une expérience utilisateur unique. 
+              Mon objectif est de donner vie à vos idées en ligne, en mettant en avant votre vision, en répondant à vos besoins et objectifs, tout en garantissant une expérience utilisateur unique. 
               </p>
               <p className={`${style.presentation__desc__p4} ${'anim'}`}>
               Travaillons ensemble pour concrétiser vos projets web de manière créative et personnalisée. 
